@@ -11,7 +11,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  background: #e0e3eb;
+  background: #253f88;
 }
 .container {
   position: relative;
@@ -30,8 +30,10 @@ body {
   text-align: right;
   margin-bottom: 10px;
   font-size: 25px;
-  color: #000e1a;
+  color: #00070e;
   pointer-events: none;
+  background-color: #c2b9b9;
+  border-radius: 5px;
 }
 .buttons {
   display: grid;
@@ -44,11 +46,11 @@ body {
   border: none;
   font-size: 20px;
   cursor: pointer;
-  background-color: #eee;
+  background-color: #8a7070;
 }
 .buttons button:active {
   transform: scale(0.99);
 }
 .operator {
-  color: #2f9fff;
+  color: #1786e7;
 }
